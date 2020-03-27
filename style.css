@@ -1,0 +1,42 @@
+h1{
+    color:gold;
+    text-align: center;
+    font-size:80px;
+}
+h2{
+    color:black;
+
+}
+h3{
+	color: black;
+	text-align: center;
+}
+
+
+
+
+body{
+    background-color: rgba(110, 3, 156, 0.692);
+}
+
+
+nav ul{
+	background-color: gold;
+	color: white;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	overflow: hidden;
+	-webkit-transition: max-height 0.4s;
+	-ms-transition: max-height 0.4s;
+	-moz-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li:hover{
+    background-color: #CCCCFF
+}
